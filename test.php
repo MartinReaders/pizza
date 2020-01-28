@@ -15,3 +15,6 @@ include 'lib/init.php';
 //$pizza = new pizza(3);
 //$pizza->set("img1", "lorem");
 //$pizza->update();
+
+$pizza = new pizza(3);
+$pizza->delete();
