@@ -1,12 +1,11 @@
 <?php
 
-echo "helo WORsLD";
-session_start();
-?>
-<form method="post" action="test.php">
-    <input type="text" name="text">
-    <input type="submit">
-        
-</form>
+include 'lib/init.php';
 
-<?php
+
+
+
+
+
+
+include 'templates/pages/accueil.php';
