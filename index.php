@@ -1,3 +1,3 @@
 <?php
 
-echo "helo WORLD";
+echo "helo WORsLD";
