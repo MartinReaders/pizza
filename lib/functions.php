@@ -1,0 +1,6 @@
+<?php
+
+/* 
+ * les functions supp
+ */
+
