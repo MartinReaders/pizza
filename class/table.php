@@ -144,9 +144,10 @@ class table {
         //Role suprimer 
         //paramtre  non
         //retoiur trou ou false
-        $sql= "DELETE * FROM `{$this->table}` WHERE `{$this->pk}`=:pk";
+        $sql= "DELETE FROM `{$this->table}` WHERE `{$this->pk}`=:pk";
         $param = [":pk"=> $this->valeurs[$this->pk]];
-        if(BDDquery($sql, $param)==-1){
+        
+        if(BDDquery($sql, $param)!==-1){
             return true;
         }else{
             echo 'Errore de supresion'. get_class($this);
